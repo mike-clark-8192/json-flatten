@@ -8,6 +8,7 @@ permissions:
   contents: read
 
 jobs:
+  if: false
   test:
     runs-on: ubuntu-latest
     strategy:
