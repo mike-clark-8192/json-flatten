@@ -28,6 +28,9 @@ Issues = "https://github.com/simonw/json-flatten/issues"
 CI = "https://github.com/simonw/json-flatten/actions"
 Changelog = "https://github.com/simonw/json-flatten/releases"
 
+[project.scripts]
+json-flatten = "json_flatten.cli:main"
+
 [project.optional-dependencies]
 test = [
     "pytest",
