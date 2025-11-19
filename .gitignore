@@ -8,3 +8,5 @@ venv
 *.egg-info
 build/
 dist/
+.python-version
+uv.lock
